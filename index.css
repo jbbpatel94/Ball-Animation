@@ -1,0 +1,76 @@
+.container{
+    position: relative;
+    height: 600px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: blueviolet;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color:white;
+}
+
+#button{
+    height: 40px;
+}
+#box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
+#lefteye{
+    position:absolute;
+    top:30px;
+    left:20px;
+    width: 20px;
+    height:20px;
+    background-color: white;
+    border-radius: 10px;
+}
+#righteye{
+    position:absolute;
+    top:30px;
+    left:60px;
+    width: 20px;
+    height:20px;
+    background-color: white;
+    border-radius: 10px;
+}
+#innerlefteye{
+    position:absolute;
+    top:35px;
+    left:25px;
+    width: 10px;
+    height:10px;
+    background-color:black;
+    border-radius: 5px;
+}
+#innerrighteye{
+    position:absolute;
+    top:35px;
+    left:65px;
+    width: 10px;
+    height:10px;
+    background-color:black;
+    border-radius: 5px;
+}
+#mouth{
+    position:absolute;
+    top:60px;
+    left:40px;
+    width:20px;
+    height:15px;
+    background-color: white;
+    border-radius: 20px;
+}
+#speedbar{
+
+}
+
