@@ -19,7 +19,7 @@ var lefteye = document.getElementById("lefteye");
 range.onchange = function () {
   console.log(range.value);
   speedValue = 100 - range.value;
-  document.getElementById('currentSpeed').value = range.value;
+  document.getElementById('currentSpeed').innerText = range.value;
   //  mymove(); 
   if (!fl){
     clearInterval(id);
