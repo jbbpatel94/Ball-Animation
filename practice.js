@@ -16,7 +16,7 @@ var innerrighteye = document.getElementById("innerrighteye");
 var righteye = document.getElementById("righteye");
 var lefteye = document.getElementById("lefteye");
 
-range.onchange = function () {
+range.oninput = function () {
   console.log(range.value);
   speedValue = 100 - range.value;
   document.getElementById('currentSpeed').innerText = range.value;
